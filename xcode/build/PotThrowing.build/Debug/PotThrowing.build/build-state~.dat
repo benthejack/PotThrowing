@@ -1,0 +1,559 @@
+TPotThrowing
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/Debug/PotThrowing.app/Contents/Info.plist Info.plist
+cCpResource CinderApp.icns ./build/Debug/PotThrowing.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch.pth PotThrowing_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/ObjLoader.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/GeometryGenerator.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/GeometryGenerator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/GeometryRenderer.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/GeometryRenderer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/StripGenerator.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/StripGenerator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/LayerManager.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/LayerManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/ShaderSphere.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ShaderSphere.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/Bloom.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/Bloom.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/Blur.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/Blur.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/PotThrowingApp.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../src/PotThrowingApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/PostEffect.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/PostEffect.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/BillboardShader.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/shaderUtils/BillboardShader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/TubeGenerator.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000516FA27900000000000000AA
+t1366270585
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000005112E39300000000000024F0
+t1360192403
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000051521CD80000000000024DD8
+t1364335832
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c0000000051521CD800000000000060B4
+t1364335832
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c000000005112E39400000000000001E5
+t1360192404
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000051521CD8000000000000E9A8
+t1364335832
+s59816
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000005064F1F700000000000069F0
+t1348792823
+s27120
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005064F1F80000000000006730
+t1348792824
+s26416
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000513E75090000000000081CB0
+t1363047689
+s531632
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000051D21A1D000000000002DAD0
+t1372723741
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c00000000519F44BC00000000004A2E10
+t1369392316
+s4861456
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000519F448C0000000000322E20
+t1369392268
+s3288608
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/.gitignore
+c0000000051504296000000000000004D
+t1364214422
+s77
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/GeometryGenerator.cpp
+c0000000051DC92FB00000000000021CE
+t1373410043
+s8654
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/GeometryRenderer.cpp
+c000000005179EE580000000000000EF0
+t1366945368
+s3824
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp
+c00000000517EF82B00000000000020B9
+t1367275563
+s8377
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ShaderSphere.cpp
+c000000005160F17E000000000000071B
+t1365307774
+s1819
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/StripGenerator.cpp
+c00000000517F0E0000000000000020C1
+t1367281152
+s8385
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp
+c0000000051E47E09000000000000094A
+t1373928969
+s2378
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/LayerManager.cpp
+c00000000518723EC0000000000001952
+t1367811052
+s6482
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/Bloom.cpp
+c00000000516795E40000000000000000
+t1365743076
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/Blur.cpp
+c00000000516795E00000000000000000
+t1365743072
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/PostEffect.cpp
+c000000005167959B0000000000000000
+t1365743003
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/shaderUtils/BillboardShader.cpp
+c0000000051503C9F00000000000002C3
+t1364212895
+s707
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../src/PotThrowingApp.cpp
+c0000000051D51273000000000000021B
+t1372918387
+s539
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/Debug/PotThrowing.app
+t2
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/Debug/PotThrowing.app/Contents/Info.plist
+t2
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/Debug/PotThrowing.app/Contents/MacOS/PotThrowing
+t2
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/Debug/PotThrowing.app/Contents/PkgInfo
+t2
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/Debug/PotThrowing.app/Contents/Resources/.gitignore
+t2
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/Debug/PotThrowing.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/BillboardShader.o
+t2
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/Bloom.o
+t2
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/Blur.o
+t2
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/GeometryGenerator.o
+t2
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/GeometryRenderer.o
+t2
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/LayerManager.o
+t2
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/ObjLoader.o
+t2
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/PostEffect.o
+t2
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/PotThrowing.LinkFileList
+c0000000051E47E0E00000000000007DD
+t1373928974
+s2013
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/PotThrowingApp.o
+t2
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/ShaderSphere.o
+t2
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/StripGenerator.o
+t2
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/TubeGenerator.o
+t2
+s0
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/CinderApp.icns
+c0000000051D51273000000000001BEB5
+t1372918387
+s114357
+
+N/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/PotThrowing_Prefix.pch
+c0000000051D512730000000000000093
+t1372918387
+s147
+i<Cocoa/Cocoa.h>
+
+N/var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c0000000051D512730000000000000351
+t1372918387
+s849
+
+CBuild AST from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/GeometryGenerator.cpp
+r0
+
+CBuild AST from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/GeometryRenderer.cpp
+r0
+
+CBuild AST from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp
+r0
+
+CBuild AST from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ShaderSphere.cpp
+r0
+
+CBuild AST from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/StripGenerator.cpp
+r0
+
+CBuild AST from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp
+r0
+
+CBuild AST from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/LayerManager.cpp
+r0
+
+CBuild AST from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/Bloom.cpp
+r0
+
+CBuild AST from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/Blur.cpp
+r0
+
+CBuild AST from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/PostEffect.cpp
+r0
+
+CBuild AST from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/shaderUtils/BillboardShader.cpp
+r0
+
+CBuild AST from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../src/PotThrowingApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6e13468eb594b741^89248a8eb594b741^-175"warning: no rule to process file '$(PROJECT_DIR)/../../../../librarySources/EyeCandy/resources/shaders/geometry/spriteSphere.fs' of type sourcecode.glsl for architecture i3861(21%IDEActivityLogMessage2@174"Warning: no rule to process file '$(PROJECT_DIR)/../../../../librarySources/EyeCandy/resources/shaders/geometry/spriteSphere.fs' of type sourcecode.glsl for architecture i386-395621774#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"DD917623-865C-425E-B1BE-EFEF3942ED88-
+
+CCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/BillboardShader.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/shaderUtils/BillboardShader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s395621775.520677
+e395621777.979958
+r1
+xCompileC
+x./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/BillboardShader.o
+x/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/shaderUtils/BillboardShader.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection162"Compile /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/shaderUtils/BillboardShader.cppeb73858fb594b741^ceddfa91b594b741^---0#0#0#-19%DVTDocumentLocation2@170"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/shaderUtils/BillboardShader.cpp0000000000000000^3528"CompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/BillboardShader.o ../../../../librarySources/EyeCandy/src/shaderUtils/BillboardShader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-generated-files.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-own-target-headers.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-all-target-headers.hmap -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-project-headers.hmap -iquote../../../../../../../../../../Library/cinder_0.8.4_mac/include -iquote../include -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug/include -I../../../../../../../../../../Library/cinder_0.8.4_mac/boost -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources/i386 -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources -F/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug -include /var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch -MMD -MT dependencies -MF /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/BillboardShader.d --serialize-diagnostics /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/BillboardShader.dia -c /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/shaderUtils/BillboardShader.cpp -o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/BillboardShader.o36"835439B3-3E77-495A-B12C-B78408DD4785-
+
+CCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/Bloom.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/Bloom.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s395621775.004298
+e395621775.295971
+r1
+xCompileC
+x./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/Bloom.o
+x/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/Bloom.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection161"Compile /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/Bloom.cpp0c3e018fb594b741^5dc44b8fb594b741^---0#0#0#-19%DVTDocumentLocation2@169"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/Bloom.cpp0000000000000000^3486"CompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/Bloom.o ../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/Bloom.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-generated-files.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-own-target-headers.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-all-target-headers.hmap -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-project-headers.hmap -iquote../../../../../../../../../../Library/cinder_0.8.4_mac/include -iquote../include -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug/include -I../../../../../../../../../../Library/cinder_0.8.4_mac/boost -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources/i386 -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources -F/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug -include /var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch -MMD -MT dependencies -MF /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/Bloom.d --serialize-diagnostics /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/Bloom.dia -c /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/Bloom.cpp -o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/Bloom.o36"C1BE9697-9C42-412F-B1BC-F592C9993E63-
+
+CCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/Blur.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/Blur.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s395621775.004517
+e395621775.461095
+r1
+xCompileC
+x./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/Blur.o
+x/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/Blur.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Compile /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/Blur.cpp8449018fb594b741^ee09768fb594b741^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/Blur.cpp0000000000000000^3480"CompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/Blur.o ../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/Blur.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-generated-files.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-own-target-headers.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-all-target-headers.hmap -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-project-headers.hmap -iquote../../../../../../../../../../Library/cinder_0.8.4_mac/include -iquote../include -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug/include -I../../../../../../../../../../Library/cinder_0.8.4_mac/boost -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources/i386 -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources -F/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug -include /var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch -MMD -MT dependencies -MF /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/Blur.d --serialize-diagnostics /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/Blur.dia -c /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/Blur.cpp -o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/Blur.o36"8E9D983E-D800-4386-AD5D-A2C41F24916C-
+
+CCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/GeometryGenerator.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/GeometryGenerator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s395621775.004251
+e395621777.813361
+r1
+xCompileC
+x./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/GeometryGenerator.o
+x/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/GeometryGenerator.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection162"Compile /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/GeometryGenerator.cpp433d018fb594b741^5037d091b594b741^---0#0#0#-19%DVTDocumentLocation2@170"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/GeometryGenerator.cpp0000000000000000^3536"CompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/GeometryGenerator.o ../../../../librarySources/EyeCandy/src/geomUtils/GeometryGenerator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-generated-files.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-own-target-headers.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-all-target-headers.hmap -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-project-headers.hmap -iquote../../../../../../../../../../Library/cinder_0.8.4_mac/include -iquote../include -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug/include -I../../../../../../../../../../Library/cinder_0.8.4_mac/boost -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources/i386 -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources -F/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug -include /var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch -MMD -MT dependencies -MF /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/GeometryGenerator.d --serialize-diagnostics /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/GeometryGenerator.dia -c /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/GeometryGenerator.cpp -o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/GeometryGenerator.o36"58B47C5E-5F6A-4770-BABA-D85043108DE3-
+
+CCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/GeometryRenderer.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/GeometryRenderer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s395621775.004267
+e395621778.058545
+r1
+xCompileC
+x./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/GeometryRenderer.o
+x/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/GeometryRenderer.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection161"Compile /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/GeometryRenderer.cpp923e018fb594b741^7afc0e92b594b741^---0#0#0#-19%DVTDocumentLocation2@169"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/GeometryRenderer.cpp0000000000000000^3530"CompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/GeometryRenderer.o ../../../../librarySources/EyeCandy/src/geomUtils/GeometryRenderer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-generated-files.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-own-target-headers.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-all-target-headers.hmap -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-project-headers.hmap -iquote../../../../../../../../../../Library/cinder_0.8.4_mac/include -iquote../include -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug/include -I../../../../../../../../../../Library/cinder_0.8.4_mac/boost -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources/i386 -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources -F/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug -include /var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch -MMD -MT dependencies -MF /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/GeometryRenderer.d --serialize-diagnostics /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/GeometryRenderer.dia -c /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/GeometryRenderer.cpp -o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/GeometryRenderer.o36"18666837-1E87-4691-A0CA-3375D3ED3D97-
+
+CCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/LayerManager.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/LayerManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s395621775.004276
+e395621783.274006
+r1
+xCompileC
+x./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/LayerManager.o
+x/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/LayerManager.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection156"Compile /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/LayerManager.cpp8d43018fb594b741^99b74a97b594b741^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/LayerManager.cpp0000000000000000^3504"CompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/LayerManager.o ../../../../librarySources/EyeCandy/src/gfxUtils/LayerManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-generated-files.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-own-target-headers.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-all-target-headers.hmap -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-project-headers.hmap -iquote../../../../../../../../../../Library/cinder_0.8.4_mac/include -iquote../include -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug/include -I../../../../../../../../../../Library/cinder_0.8.4_mac/boost -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources/i386 -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources -F/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug -include /var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch -MMD -MT dependencies -MF /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/LayerManager.d --serialize-diagnostics /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/LayerManager.dia -c /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/LayerManager.cpp -o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/LayerManager.o36"9FC3DA4C-63AB-4D8E-92E6-7D9040C98D6F-
+
+CCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/ObjLoader.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s395621775.004216
+e395621785.584961
+r1
+xCompileC
+x./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/ObjLoader.o
+x/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp:16:
+oIn file included from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/include/geomUtils/ObjLoader.h:23:
+oIn file included from ../../../../../../../../../../Library/cinder_0.8.4_mac/boost/boost/regex.hpp:31:
+oIn file included from ../../../../../../../../../../Library/cinder_0.8.4_mac/boost/boost/regex/v4/regex.hpp:70:
+o../../../../../../../../../../Library/cinder_0.8.4_mac/boost/boost/regex/v4/basic_regex_creator.hpp:1038:34: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+o            else if((state->type == syntax_element_long_set_rep)) 
+o                     ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o../../../../../../../../../../Library/cinder_0.8.4_mac/boost/boost/regex/v4/basic_regex_creator.hpp:1038:34: note: remove extraneous parentheses around the comparison to silence this warning
+o            else if((state->type == syntax_element_long_set_rep)) 
+o                    ~            ^                             ~
+o../../../../../../../../../../Library/cinder_0.8.4_mac/boost/boost/regex/v4/basic_regex_creator.hpp:1038:34: note: use '=' to turn this equality comparison into an assignment
+o            else if((state->type == syntax_element_long_set_rep)) 
+o                                 ^~
+o                                 =
+o../../../../../../../../../../Library/cinder_0.8.4_mac/boost/boost/regex/v4/basic_regex_creator.hpp:1341:28: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+o               if((p->type == syntax_element_recurse))
+o                   ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+o../../../../../../../../../../Library/cinder_0.8.4_mac/boost/boost/regex/v4/basic_regex_creator.hpp:1341:28: note: remove extraneous parentheses around the comparison to silence this warning
+o               if((p->type == syntax_element_recurse))
+o                  ~        ^                        ~
+o../../../../../../../../../../Library/cinder_0.8.4_mac/boost/boost/regex/v4/basic_regex_creator.hpp:1341:28: note: use '=' to turn this equality comparison into an assignment
+o               if((p->type == syntax_element_recurse))
+o                           ^~
+o                           =
+o/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp:74:52: warning: unknown escape sequence '\.'
+o        std::string vertexSearch = "^v ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*)";
+o                                                   ^~
+o/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp:74:75: warning: unknown escape sequence '\.'
+o        std::string vertexSearch = "^v ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*)";
+o                                                                          ^~
+o/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp:74:98: warning: unknown escape sequence '\.'
+o        std::string vertexSearch = "^v ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*)";
+o                                                                                                 ^~
+o/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp:76:54: warning: unknown escape sequence '\.'
+o        std::string textureSearch = "^vt ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*)";
+o                                                     ^~
+o/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp:76:77: warning: unknown escape sequence '\.'
+o        std::string textureSearch = "^vt ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*)";
+o                                                                            ^~
+o/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp:78:53: warning: unknown escape sequence '\.'
+o        std::string normalSearch = "^vn ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*)";
+o                                                    ^~
+o/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp:78:76: warning: unknown escape sequence '\.'
+o        std::string normalSearch = "^vn ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*)";
+o                                                                           ^~
+o/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp:78:99: warning: unknown escape sequence '\.'
+o        std::string normalSearch = "^vn ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*)";
+o                                                                                                  ^~
+o10 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Compile /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cppd13b018fb594b741^dec79599b594b741^-5409"In file included from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp:16:In file included from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/include/geomUtils/ObjLoader.h:23:In file included from ../../../../../../../../../../Library/cinder_0.8.4_mac/boost/boost/regex.hpp:31:In file included from ../../../../../../../../../../Library/cinder_0.8.4_mac/boost/boost/regex/v4/regex.hpp:70:../../../../../../../../../../Library/cinder_0.8.4_mac/boost/boost/regex/v4/basic_regex_creator.hpp:1038:34: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]            else if((state->type == syntax_element_long_set_rep))                      ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~../../../../../../../../../../Library/cinder_0.8.4_mac/boost/boost/regex/v4/basic_regex_creator.hpp:1038:34: note: remove extraneous parentheses around the comparison to silence this warning            else if((state->type == syntax_element_long_set_rep))                     ~            ^                             ~../../../../../../../../../../Library/cinder_0.8.4_mac/boost/boost/regex/v4/basic_regex_creator.hpp:1038:34: note: use '=' to turn this equality comparison into an assignment            else if((state->type == syntax_element_long_set_rep))                                  ^~                                 =../../../../../../../../../../Library/cinder_0.8.4_mac/boost/boost/regex/v4/basic_regex_creator.hpp:1341:28: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]               if((p->type == syntax_element_recurse))                   ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~../../../../../../../../../../Library/cinder_0.8.4_mac/boost/boost/regex/v4/basic_regex_creator.hpp:1341:28: note: remove extraneous parentheses around the comparison to silence this warning               if((p->type == syntax_element_recurse))                  ~        ^                        ~../../../../../../../../../../Library/cinder_0.8.4_mac/boost/boost/regex/v4/basic_regex_creator.hpp:1341:28: note: use '=' to turn this equality comparison into an assignment               if((p->type == syntax_element_recurse))                           ^~                           =/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp:74:52: warning: unknown escape sequence '\.'        std::string vertexSearch = "^v ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*)";                                                   ^~/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp:74:75: warning: unknown escape sequence '\.'        std::string vertexSearch = "^v ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*)";                                                                          ^~/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp:74:98: warning: unknown escape sequence '\.'        std::string vertexSearch = "^v ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*)";                                                                                                 ^~/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp:76:54: warning: unknown escape sequence '\.'        std::string textureSearch = "^vt ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*)";                                                     ^~/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp:76:77: warning: unknown escape sequence '\.'        std::string textureSearch = "^vt ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*)";                                                                            ^~/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp:78:53: warning: unknown escape sequence '\.'        std::string normalSearch = "^vn ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*)";                                                    ^~/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp:78:76: warning: unknown escape sequence '\.'        std::string normalSearch = "^vn ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*)";                                                                           ^~/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp:78:99: warning: unknown escape sequence '\.'        std::string normalSearch = "^vn ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*) ([-+]?[0-9]+\.?[0-9]*)";                                                                                                  ^~10 warnings generated.-0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp0000000000000000^3488"CompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/ObjLoader.o ../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-generated-files.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-own-target-headers.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-all-target-headers.hmap -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-project-headers.hmap -iquote../../../../../../../../../../Library/cinder_0.8.4_mac/include -iquote../include -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug/include -I../../../../../../../../../../Library/cinder_0.8.4_mac/boost -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources/i386 -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources -F/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug -include /var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch -MMD -MT dependencies -MF /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/ObjLoader.d --serialize-diagnostics /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/ObjLoader.dia -c /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ObjLoader.cpp -o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/ObjLoader.o36"278EA785-C808-46FB-8948-64B65F306E70-
+
+CCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/PostEffect.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/PostEffect.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s395621775.462455
+e395621775.519332
+r1
+xCompileC
+x./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/PostEffect.o
+x/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/PostEffect.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection166"Compile /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/PostEffect.cppbb7d768fb594b741^5af2848fb594b741^---0#0#0#-19%DVTDocumentLocation2@174"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/PostEffect.cpp0000000000000000^3516"CompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/PostEffect.o ../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/PostEffect.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-generated-files.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-own-target-headers.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-all-target-headers.hmap -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-project-headers.hmap -iquote../../../../../../../../../../Library/cinder_0.8.4_mac/include -iquote../include -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug/include -I../../../../../../../../../../Library/cinder_0.8.4_mac/boost -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources/i386 -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources -F/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug -include /var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch -MMD -MT dependencies -MF /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/PostEffect.d --serialize-diagnostics /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/PostEffect.dia -c /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/gfxUtils/postEffects/PostEffect.cpp -o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/PostEffect.o36"2E85B739-5BBA-4C28-872F-00303D94C6E8-
+
+CCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/PotThrowingApp.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../src/PotThrowingApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s395621775.297275
+e395621783.065342
+r1
+xCompileC
+x./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/PotThrowingApp.o
+x/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../src/PotThrowingApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../src/PotThrowingApp.cpp683d4c8fb594b741^4dbf1097b594b741^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../src/PotThrowingApp.cpp0000000000000000^3432"CompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/PotThrowingApp.o ../src/PotThrowingApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-generated-files.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-own-target-headers.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-all-target-headers.hmap -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-project-headers.hmap -iquote../../../../../../../../../../Library/cinder_0.8.4_mac/include -iquote../include -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug/include -I../../../../../../../../../../Library/cinder_0.8.4_mac/boost -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources/i386 -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources -F/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug -include /var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch -MMD -MT dependencies -MF /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/PotThrowingApp.d --serialize-diagnostics /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/PotThrowingApp.dia -c /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../src/PotThrowingApp.cpp -o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/PotThrowingApp.o36"8EA09C57-60F6-4C6D-AE1F-592EE77A043F-
+
+CCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/ShaderSphere.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ShaderSphere.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s395621775.004284
+e395621783.065296
+r1
+xCompileC
+x./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/ShaderSphere.o
+x/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ShaderSphere.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection157"Compile /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ShaderSphere.cpp5740018fb594b741^34b91097b594b741^---0#0#0#-19%DVTDocumentLocation2@165"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ShaderSphere.cpp0000000000000000^3506"CompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/ShaderSphere.o ../../../../librarySources/EyeCandy/src/geomUtils/ShaderSphere.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-generated-files.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-own-target-headers.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-all-target-headers.hmap -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-project-headers.hmap -iquote../../../../../../../../../../Library/cinder_0.8.4_mac/include -iquote../include -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug/include -I../../../../../../../../../../Library/cinder_0.8.4_mac/boost -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources/i386 -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources -F/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug -include /var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch -MMD -MT dependencies -MF /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/ShaderSphere.d --serialize-diagnostics /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/ShaderSphere.dia -c /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/ShaderSphere.cpp -o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/ShaderSphere.o36"798A84FD-7DC2-42F9-A064-741907639F7E-
+
+CCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/StripGenerator.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/StripGenerator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s395621775.004274
+e395621777.741842
+r1
+xCompileC
+x./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/StripGenerator.o
+x/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/StripGenerator.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection159"Compile /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/StripGenerator.cpp0e49018fb594b741^25eabd91b594b741^---0#0#0#-19%DVTDocumentLocation2@167"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/StripGenerator.cpp0000000000000000^3518"CompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/StripGenerator.o ../../../../librarySources/EyeCandy/src/geomUtils/StripGenerator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-generated-files.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-own-target-headers.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-all-target-headers.hmap -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-project-headers.hmap -iquote../../../../../../../../../../Library/cinder_0.8.4_mac/include -iquote../include -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug/include -I../../../../../../../../../../Library/cinder_0.8.4_mac/boost -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources/i386 -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources -F/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug -include /var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch -MMD -MT dependencies -MF /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/StripGenerator.d --serialize-diagnostics /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/StripGenerator.dia -c /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/StripGenerator.cpp -o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/StripGenerator.o36"B6F28AF2-1108-4C07-9375-11FDEFF97BC3-
+
+CCompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/TubeGenerator.o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s395621777.743286
+e395621778.936062
+r0
+xCompileC
+x./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/TubeGenerator.o
+x/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp:2:
+o/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/include/geomUtils/TubeGenerator.h:37:13: error: function definition does not declare parameters
+o            ~TubeGenerator{}
+o            ^
+o/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/include/geomUtils/TubeGenerator.h:73:17: error: no type named 'vec3i' in namespace 'cinder'; did you mean 'Vec3i'?
+o            ci::vec3i _segments;
+o            ~~~~^~~~~
+o                Vec3i
+o../../../../../../../../../../Library/cinder_0.8.4_mac/include/cinder/Vector.h:1306:20: note: 'Vec3i' declared here
+otypedef Vec3<int>               Vec3i;
+o                                ^
+oIn file included from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp:2:
+o/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/include/geomUtils/TubeGenerator.h:45:45: error: use of undeclared identifier '_segs'
+o            Vec3i segments() const { return _segs; }
+o                                            ^
+o/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/include/geomUtils/TubeGenerator.h:55:29: error: use of undeclared identifier 'i_segments'; did you mean '_segments'?
+o                _segments = i_segments;
+o                            ^~~~~~~~~~
+o                            _segments
+o/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/include/geomUtils/TubeGenerator.h:73:23: note: '_segments' declared here
+o            ci::vec3i _segments;
+o                      ^
+o/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/include/geomUtils/TubeGenerator.h:59:17: error: use of undeclared identifier '_centered'
+o                _centered = true;
+o                ^
+o/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp:28:25: error: use of undeclared identifier 'startY'
+o            for(int j = startY; j < angularSegs; j++){
+o                        ^
+o6 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection158"Compile /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cppe564be91b594b741^0a9def92b594b741^-2579"In file included from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp:2:/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/include/geomUtils/TubeGenerator.h:37:13: error: function definition does not declare parameters            ~TubeGenerator{}            ^/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/include/geomUtils/TubeGenerator.h:73:17: error: no type named 'vec3i' in namespace 'cinder'; did you mean 'Vec3i'?            ci::vec3i _segments;            ~~~~^~~~~                Vec3i../../../../../../../../../../Library/cinder_0.8.4_mac/include/cinder/Vector.h:1306:20: note: 'Vec3i' declared heretypedef Vec3<int>               Vec3i;                                ^In file included from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp:2:/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/include/geomUtils/TubeGenerator.h:45:45: error: use of undeclared identifier '_segs'            Vec3i segments() const { return _segs; }                                            ^/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/include/geomUtils/TubeGenerator.h:55:29: error: use of undeclared identifier 'i_segments'; did you mean '_segments'?                _segments = i_segments;                            ^~~~~~~~~~                            _segments/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/include/geomUtils/TubeGenerator.h:73:23: note: '_segments' declared here            ci::vec3i _segments;                      ^/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/include/geomUtils/TubeGenerator.h:59:17: error: use of undeclared identifier '_centered'                _centered = true;                ^/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp:28:25: error: use of undeclared identifier 'startY'            for(int j = startY; j < angularSegs; j++){                        ^6 errors generated.6(36%IDEClangDiagnosticActivityLogMessage2@47"Function definition does not declare parameters-395621778#18446744073709551615#0#1(2@175"In file included from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp:2:-395621778#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@107"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp0000000000000000^1#9#1#9#40#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@109"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/librarySources/EyeCandy/include/geomUtils/TubeGenerator.h0000000000000000^36#12#36#12#1030#0#11"Parse Issue--2@66"No type named 'vec3i' in namespace 'cinder'; did you mean 'Vec3i'?-395621778#18446744073709551615#0#2(2@175"In file included from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp:2:-395621778#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp0000000000000000^1#9#1#9#40#0#21"Clang LLVM 1.0 Notice--2@21"'Vec3i' declared here-395621778#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@65"file://localhost/Library/cinder_0.8.4_mac/include/cinder/Vector.h0000000000000000^1305#19#1305#19#43923#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@109"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/librarySources/EyeCandy/include/geomUtils/TubeGenerator.h0000000000000000^72#16#72#16#2371#0#14"Semantic Issue2(3@109"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/librarySources/EyeCandy/include/geomUtils/TubeGenerator.h0000000000000000^72#12#72#16#2367#2#3@109"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/librarySources/EyeCandy/include/geomUtils/TubeGenerator.h0000000000000000^72#16#72#21#2371#5#-2@36"Use of undeclared identifier '_segs'-395621778#18446744073709551615#0#1(2@175"In file included from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp:2:-395621778#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp0000000000000000^1#9#1#9#40#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@109"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/librarySources/EyeCandy/include/geomUtils/TubeGenerator.h0000000000000000^44#44#44#44#1396#0#14"Semantic Issue--2@68"Use of undeclared identifier 'i_segments'; did you mean '_segments'?-395621778#18446744073709551615#0#2(2@175"In file included from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp:2:-395621778#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp0000000000000000^1#9#1#9#40#0#21"Clang LLVM 1.0 Notice--2@25"'_segments' declared here-395621778#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@109"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/librarySources/EyeCandy/include/geomUtils/TubeGenerator.h0000000000000000^72#22#72#22#2377#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@109"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/librarySources/EyeCandy/include/geomUtils/TubeGenerator.h0000000000000000^54#28#54#28#1855#0#14"Semantic Issue1(3@109"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/librarySources/EyeCandy/include/geomUtils/TubeGenerator.h0000000000000000^54#28#54#38#1855#10#-2@40"Use of undeclared identifier '_centered'-395621778#18446744073709551615#0#1(2@175"In file included from /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp:2:-395621778#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp0000000000000000^1#9#1#9#40#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@109"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/librarySources/EyeCandy/include/geomUtils/TubeGenerator.h0000000000000000^58#16#58#16#1942#0#14"Semantic Issue--2@37"Use of undeclared identifier 'startY'-395621778#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@107"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp0000000000000000^27#24#27#24#915#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@166"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp0000000000000000^3512"CompileC ./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/TubeGenerator.o ../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-generated-files.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-own-target-headers.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-all-target-headers.hmap -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-project-headers.hmap -iquote../../../../../../../../../../Library/cinder_0.8.4_mac/include -iquote../include -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug/include -I../../../../../../../../../../Library/cinder_0.8.4_mac/boost -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources/i386 -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources -F/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug -include /var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch -MMD -MT dependencies -MF /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/TubeGenerator.d --serialize-diagnostics /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/TubeGenerator.dia -c /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/../../../../librarySources/EyeCandy/src/geomUtils/TubeGenerator.cpp -o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/Objects-normal/i386/TubeGenerator.o36"83133CBA-3ECB-461C-8AD6-C2442BE980AA-
+
+CCpResource ../../../../librarySources/EyeCandy/.gitignore ./build/Debug/PotThrowing.app/Contents/Resources/.gitignore
+r0
+
+CCpResource CinderApp.icns ./build/Debug/PotThrowing.app/Contents/Resources/CinderApp.icns
+s395621774.608755
+e395621774.651268
+r1
+xCpResource
+xCinderApp.icns
+x./build/Debug/PotThrowing.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy ./build/Debug/PotThrowing.app/Contents/Resources/CinderApp.icns1287a08eb594b741^c2bda68eb594b741^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/Debug/PotThrowing.app/Contents/Resources/CinderApp.icns000000000080d041^522"CpResource CinderApp.icns ./build/Debug/PotThrowing.app/Contents/Resources/CinderApp.icns    cd /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/CinderApp.icns /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/Debug/PotThrowing.app/Contents/Resources36"CA319107-6851-4B7C-8A18-D849FE45C612-
+
+CLd /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/Debug/PotThrowing.app/Contents/MacOS/PotThrowing normal i386
+r0
+
+CProcessInfoPlistFile /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/Debug/PotThrowing.app/Contents/Info.plist Info.plist
+s395621774.546341
+e395621774.600401
+r1
+xProcessInfoPlistFile
+x/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/Debug/PotThrowing.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plistcafc8b8eb594b741^8aac9d8eb594b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/Info.plist0000000000000000^528"ProcessInfoPlistFile ./build/Debug/PotThrowing.app/Contents/Info.plist Info.plist    cd /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/Debug/PotThrowing.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/Debug/PotThrowing.app/Contents/Info.plist36"E8BF2431-D322-4F45-9F6F-17EC80D5D84C-
+
+CProcessPCH++ /Volumes/Ben/Users/Ben/Library/Developer/Xcode/DerivedData/PotThrowing-dcdbpyodyutgfuarrhxwscrocxop/Index/PrecompiledHeaders/PotThrowing_Prefix-ekadxebpbsbyriexvxmbxqhhguvg_ast/PotThrowing_Prefix.pch.pth PotThrowing_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch.pth PotThrowing_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s395621774.660074
+e395621774.997804
+r1
+xProcessPCH++
+x/var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch.pth
+xPotThrowing_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile PotThrowing_Prefix.pch8929a98eb594b741^6d6fff8eb594b741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/PotThrowing_Prefix.pch0000000000000000^3338"ProcessPCH++ /var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch.pth PotThrowing_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-generated-files.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-own-target-headers.hmap -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-all-target-headers.hmap -iquote /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/PotThrowing-project-headers.hmap -iquote../../../../../../../../../../Library/cinder_0.8.4_mac/include -iquote../include -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug/include -I../../../../../../../../../../Library/cinder_0.8.4_mac/boost -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources/i386 -I/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/PotThrowing.build/Debug/PotThrowing.build/DerivedSources -F/Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/build/Debug --serialize-diagnostics /var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch.dia -c /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/PotThrowing_Prefix.pch -o /var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/_d/bj1mh33j0nd2mkjwsm1ppvnw0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/PotThrowing_Prefix-gktdnplyhnntvqagwjvnoytghffd/PotThrowing_Prefix.pch.d36"781A00DC-043D-4EAA-92B6-CF2764B7B93C-
+
+CTouch /Volumes/Ben/Users/Ben/Desktop/Work/personalprojects/PotThrowing/PotThrowing/xcode/./build/Debug/PotThrowing.app
+r0
+

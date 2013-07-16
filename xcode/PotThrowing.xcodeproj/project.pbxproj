@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		0097E3E50F3E9819005A4392 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0097E3E40F3E9819005A4392 /* QuickTime.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		00BAE65A0E7ED9C10018A608 /* PotThrowingApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE6590E7ED9C10018A608 /* PotThrowingApp.cpp */; };
+		00CCAF15116A9FEE008396D5 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 00CCAF14116A9FEE008396D5 /* CinderApp.icns */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
+		53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E3CDFB0E86099300238D2B /* Carbon.framework */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B5EF858717860DDE00F87607 /* spriteSphere.fs in Sources */ = {isa = PBXBuildFile; fileRef = B5EF857117860DDE00F87607 /* spriteSphere.fs */; };
+		B5EF858817860DDE00F87607 /* GeometryGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5EF857817860DDE00F87607 /* GeometryGenerator.cpp */; };
+		B5EF858917860DDE00F87607 /* GeometryRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5EF857917860DDE00F87607 /* GeometryRenderer.cpp */; };
+		B5EF858A17860DDE00F87607 /* ObjLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5EF857A17860DDE00F87607 /* ObjLoader.cpp */; };
+		B5EF858B17860DDE00F87607 /* ShaderSphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5EF857B17860DDE00F87607 /* ShaderSphere.cpp */; };
+		B5EF858C17860DDE00F87607 /* StripGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5EF857C17860DDE00F87607 /* StripGenerator.cpp */; };
+		B5EF858D17860DDE00F87607 /* LayerManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5EF857E17860DDE00F87607 /* LayerManager.cpp */; };
+		B5EF858E17860DDE00F87607 /* Bloom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5EF858017860DDE00F87607 /* Bloom.cpp */; };
+		B5EF858F17860DDE00F87607 /* Blur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5EF858117860DDE00F87607 /* Blur.cpp */; };
+		B5EF859017860DDE00F87607 /* PostEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5EF858217860DDE00F87607 /* PostEffect.cpp */; };
+		B5EF859117860DDE00F87607 /* BillboardShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5EF858517860DDE00F87607 /* BillboardShader.cpp */; };
+		B5EF8594178CD90C00F87607 /* TubeGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5EF8593178CD90C00F87607 /* TubeGenerator.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		0097E3E40F3E9819005A4392 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		00BAE6590E7ED9C10018A608 /* PotThrowingApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PotThrowingApp.cpp; path = ../src/PotThrowingApp.cpp; sourceTree = SOURCE_ROOT; };
+		00CCAF14116A9FEE008396D5 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = CinderApp.icns; sourceTree = SOURCE_ROOT; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* PotThrowing_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PotThrowing_Prefix.pch; sourceTree = "<group>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
+		53E3CDFB0E86099300238D2B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* PotThrowing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PotThrowing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EF855D17860DDE00F87607 /* GeometryGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometryGenerator.h; sourceTree = "<group>"; };
+		B5EF855E17860DDE00F87607 /* GeometryRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometryRenderer.h; sourceTree = "<group>"; };
+		B5EF855F17860DDE00F87607 /* ObjLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjLoader.h; sourceTree = "<group>"; };
+		B5EF856117860DDE00F87607 /* ShaderSphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderSphere.h; sourceTree = "<group>"; };
+		B5EF856217860DDE00F87607 /* StripGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StripGenerator.h; sourceTree = "<group>"; };
+		B5EF856417860DDE00F87607 /* LayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerManager.h; sourceTree = "<group>"; };
+		B5EF856617860DDE00F87607 /* Bloom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bloom.h; sourceTree = "<group>"; };
+		B5EF856717860DDE00F87607 /* Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blur.h; sourceTree = "<group>"; };
+		B5EF856817860DDE00F87607 /* PostEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostEffect.h; sourceTree = "<group>"; };
+		B5EF856917860DDE00F87607 /* SSAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSAO.h; sourceTree = "<group>"; };
+		B5EF856A17860DDE00F87607 /* Renderable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Renderable.h; sourceTree = "<group>"; };
+		B5EF856D17860DDE00F87607 /* BillboardShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillboardShader.h; sourceTree = "<group>"; };
+		B5EF857117860DDE00F87607 /* spriteSphere.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = spriteSphere.fs; sourceTree = "<group>"; };
+		B5EF857817860DDE00F87607 /* GeometryGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeometryGenerator.cpp; sourceTree = "<group>"; };
+		B5EF857917860DDE00F87607 /* GeometryRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeometryRenderer.cpp; sourceTree = "<group>"; };
+		B5EF857A17860DDE00F87607 /* ObjLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ObjLoader.cpp; sourceTree = "<group>"; };
+		B5EF857B17860DDE00F87607 /* ShaderSphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderSphere.cpp; sourceTree = "<group>"; };
+		B5EF857C17860DDE00F87607 /* StripGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StripGenerator.cpp; sourceTree = "<group>"; };
+		B5EF857E17860DDE00F87607 /* LayerManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerManager.cpp; sourceTree = "<group>"; };
+		B5EF858017860DDE00F87607 /* Bloom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bloom.cpp; sourceTree = "<group>"; };
+		B5EF858117860DDE00F87607 /* Blur.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Blur.cpp; sourceTree = "<group>"; };
+		B5EF858217860DDE00F87607 /* PostEffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PostEffect.cpp; sourceTree = "<group>"; };
+		B5EF858517860DDE00F87607 /* BillboardShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BillboardShader.cpp; sourceTree = "<group>"; };
+		B5EF8592178CD8F900F87607 /* TubeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TubeGenerator.h; sourceTree = "<group>"; };
+		B5EF8593178CD90C00F87607 /* TubeGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TubeGenerator.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */,
+				0097E3E50F3E9819005A4392 /* QuickTime.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				00BAE6590E7ED9C10018A608 /* PotThrowingApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				0097E3E40F3E9819005A4392 /* QuickTime.framework */,
+				5323E6B50EAFCA7E003A9687 /* QTKit.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				53E3CDFB0E86099300238D2B /* Carbon.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* PotThrowing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* PotThrowing */ = {
+			isa = PBXGroup;
+			children = (
+				B5EF855817860DDE00F87607 /* EyeCandy */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = PotThrowing;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* PotThrowing_Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				00CCAF14116A9FEE008396D5 /* CinderApp.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5EF855817860DDE00F87607 /* EyeCandy */ = {
+			isa = PBXGroup;
+			children = (
+				B5EF855A17860DDE00F87607 /* include */,
+				B5EF856E17860DDE00F87607 /* resources */,
+				B5EF857517860DDE00F87607 /* src */,
+			);
+			name = EyeCandy;
+			path = ../../../../librarySources/EyeCandy;
+			sourceTree = "<group>";
+		};
+		B5EF855A17860DDE00F87607 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B5EF855B17860DDE00F87607 /* applicationUtils */,
+				B5EF855C17860DDE00F87607 /* geomUtils */,
+				B5EF856317860DDE00F87607 /* gfxUtils */,
+				B5EF856B17860DDE00F87607 /* mathUtils */,
+				B5EF856C17860DDE00F87607 /* shaderUtils */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		B5EF855B17860DDE00F87607 /* applicationUtils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = applicationUtils;
+			sourceTree = "<group>";
+		};
+		B5EF855C17860DDE00F87607 /* geomUtils */ = {
+			isa = PBXGroup;
+			children = (
+				B5EF8592178CD8F900F87607 /* TubeGenerator.h */,
+				B5EF855D17860DDE00F87607 /* GeometryGenerator.h */,
+				B5EF855E17860DDE00F87607 /* GeometryRenderer.h */,
+				B5EF855F17860DDE00F87607 /* ObjLoader.h */,
+				B5EF856017860DDE00F87607 /* particle */,
+				B5EF856117860DDE00F87607 /* ShaderSphere.h */,
+				B5EF856217860DDE00F87607 /* StripGenerator.h */,
+			);
+			path = geomUtils;
+			sourceTree = "<group>";
+		};
+		B5EF856017860DDE00F87607 /* particle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = particle;
+			sourceTree = "<group>";
+		};
+		B5EF856317860DDE00F87607 /* gfxUtils */ = {
+			isa = PBXGroup;
+			children = (
+				B5EF856417860DDE00F87607 /* LayerManager.h */,
+				B5EF856517860DDE00F87607 /* postEffects */,
+				B5EF856A17860DDE00F87607 /* Renderable.h */,
+			);
+			path = gfxUtils;
+			sourceTree = "<group>";
+		};
+		B5EF856517860DDE00F87607 /* postEffects */ = {
+			isa = PBXGroup;
+			children = (
+				B5EF856617860DDE00F87607 /* Bloom.h */,
+				B5EF856717860DDE00F87607 /* Blur.h */,
+				B5EF856817860DDE00F87607 /* PostEffect.h */,
+				B5EF856917860DDE00F87607 /* SSAO.h */,
+			);
+			path = postEffects;
+			sourceTree = "<group>";
+		};
+		B5EF856B17860DDE00F87607 /* mathUtils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mathUtils;
+			sourceTree = "<group>";
+		};
+		B5EF856C17860DDE00F87607 /* shaderUtils */ = {
+			isa = PBXGroup;
+			children = (
+				B5EF856D17860DDE00F87607 /* BillboardShader.h */,
+			);
+			path = shaderUtils;
+			sourceTree = "<group>";
+		};
+		B5EF856E17860DDE00F87607 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5EF856F17860DDE00F87607 /* shaders */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		B5EF856F17860DDE00F87607 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				B5EF857017860DDE00F87607 /* geometry */,
+				B5EF857217860DDE00F87607 /* misc */,
+				B5EF857317860DDE00F87607 /* particles */,
+				B5EF857417860DDE00F87607 /* rendering */,
+			);
+			path = shaders;
+			sourceTree = "<group>";
+		};
+		B5EF857017860DDE00F87607 /* geometry */ = {
+			isa = PBXGroup;
+			children = (
+				B5EF857117860DDE00F87607 /* spriteSphere.fs */,
+			);
+			path = geometry;
+			sourceTree = "<group>";
+		};
+		B5EF857217860DDE00F87607 /* misc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		B5EF857317860DDE00F87607 /* particles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = particles;
+			sourceTree = "<group>";
+		};
+		B5EF857417860DDE00F87607 /* rendering */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = rendering;
+			sourceTree = "<group>";
+		};
+		B5EF857517860DDE00F87607 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B5EF857617860DDE00F87607 /* applicationUtils */,
+				B5EF857717860DDE00F87607 /* geomUtils */,
+				B5EF857D17860DDE00F87607 /* gfxUtils */,
+				B5EF858317860DDE00F87607 /* mathUtils */,
+				B5EF858417860DDE00F87607 /* shaderUtils */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		B5EF857617860DDE00F87607 /* applicationUtils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = applicationUtils;
+			sourceTree = "<group>";
+		};
+		B5EF857717860DDE00F87607 /* geomUtils */ = {
+			isa = PBXGroup;
+			children = (
+				B5EF8593178CD90C00F87607 /* TubeGenerator.cpp */,
+				B5EF857817860DDE00F87607 /* GeometryGenerator.cpp */,
+				B5EF857917860DDE00F87607 /* GeometryRenderer.cpp */,
+				B5EF857A17860DDE00F87607 /* ObjLoader.cpp */,
+				B5EF857B17860DDE00F87607 /* ShaderSphere.cpp */,
+				B5EF857C17860DDE00F87607 /* StripGenerator.cpp */,
+			);
+			path = geomUtils;
+			sourceTree = "<group>";
+		};
+		B5EF857D17860DDE00F87607 /* gfxUtils */ = {
+			isa = PBXGroup;
+			children = (
+				B5EF857E17860DDE00F87607 /* LayerManager.cpp */,
+				B5EF857F17860DDE00F87607 /* postEffects */,
+			);
+			path = gfxUtils;
+			sourceTree = "<group>";
+		};
+		B5EF857F17860DDE00F87607 /* postEffects */ = {
+			isa = PBXGroup;
+			children = (
+				B5EF858017860DDE00F87607 /* Bloom.cpp */,
+				B5EF858117860DDE00F87607 /* Blur.cpp */,
+				B5EF858217860DDE00F87607 /* PostEffect.cpp */,
+			);
+			path = postEffects;
+			sourceTree = "<group>";
+		};
+		B5EF858317860DDE00F87607 /* mathUtils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mathUtils;
+			sourceTree = "<group>";
+		};
+		B5EF858417860DDE00F87607 /* shaderUtils */ = {
+			isa = PBXGroup;
+			children = (
+				B5EF858517860DDE00F87607 /* BillboardShader.cpp */,
+			);
+			path = shaderUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* PotThrowing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "PotThrowing" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PotThrowing;
+			productInstallPath = "$(HOME)/Applications";
+			productName = PotThrowing;
+			productReference = 8D1107320486CEB800E47090 /* PotThrowing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PotThrowing" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* PotThrowing */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* PotThrowing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00CCAF15116A9FEE008396D5 /* CinderApp.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00BAE65A0E7ED9C10018A608 /* PotThrowingApp.cpp in Sources */,
+				B5EF858717860DDE00F87607 /* spriteSphere.fs in Sources */,
+				B5EF858817860DDE00F87607 /* GeometryGenerator.cpp in Sources */,
+				B5EF858917860DDE00F87607 /* GeometryRenderer.cpp in Sources */,
+				B5EF858A17860DDE00F87607 /* ObjLoader.cpp in Sources */,
+				B5EF858B17860DDE00F87607 /* ShaderSphere.cpp in Sources */,
+				B5EF858C17860DDE00F87607 /* StripGenerator.cpp in Sources */,
+				B5EF858D17860DDE00F87607 /* LayerManager.cpp in Sources */,
+				B5EF858E17860DDE00F87607 /* Bloom.cpp in Sources */,
+				B5EF858F17860DDE00F87607 /* Blur.cpp in Sources */,
+				B5EF859017860DDE00F87607 /* PostEffect.cpp in Sources */,
+				B5EF859117860DDE00F87607 /* BillboardShader.cpp in Sources */,
+				B5EF8594178CD90C00F87607 /* TubeGenerator.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PotThrowing_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder_d.a\"",
+					"-lcurl",
+				);
+				PRODUCT_NAME = PotThrowing;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PotThrowing_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder.a\"",
+					"-lcurl",
+				);
+				PRODUCT_NAME = PotThrowing;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = ../../../../../../../../../../Library/cinder_0.8.4_mac;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = ../../../../../../../../../../Library/cinder_0.8.4_mac;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "PotThrowing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PotThrowing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
